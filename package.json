@@ -1,7 +1,7 @@
 {
-  "name": "todo_app",
+  "name": "mern_template",
   "version": "1.0.0",
-  "description": "",
+  "description": "MERN Template",
   "main": "./server",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
