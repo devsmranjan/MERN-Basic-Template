@@ -30,15 +30,6 @@ app.use(cookieParser());
 // data base
 mongoConfig.connectMongo();
 
-// Documentaion
-// Reference : https://swagger.io/specification/
-// const swaggerOptions = {
-//     swaggerDefination: {
-
-//     }
-
-// }
-
 // Routes
 app.use('/api/docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 app.use('/api', require('./routes/index'));
