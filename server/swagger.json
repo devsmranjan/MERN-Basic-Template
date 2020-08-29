@@ -1,0 +1,27 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "title": "My MERN Template",
+        "version": "1.0",
+        "description": "This is an example of server api documentation",
+        "contact": {
+            "email": "smrutiranjan.developer@gmail.com"
+        }
+    },
+    "servers": [{
+        "url": "http://localhost:5000"
+    }],
+    "paths": {
+        "/api": {
+            "get": {
+                "description": "Entry point of the API",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}
