@@ -39,11 +39,10 @@ mongoConfig.connectMongo();
 
 // }
 
-// /////////////////////////////////////////////
-app.use('/api/docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument))
+// Routes
+app.use('/api/docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 app.use('/api', require('./routes/index'));
 
-/////////////////////////////////////////////////
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
     next(createError(404));

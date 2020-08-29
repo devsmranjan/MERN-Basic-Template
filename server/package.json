@@ -24,7 +24,6 @@
     "http-errors": "^1.8.0",
     "mongoose": "^5.10.2",
     "morgan": "^1.10.0",
-    "swagger-jsdoc": "^4.0.0",
     "swagger-ui-express": "^4.1.4"
   }
 }
