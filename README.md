@@ -4,3 +4,6 @@
 
 To start
 > npm run dev
+
+Get documentaion
+> /api/docs
