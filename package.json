@@ -8,7 +8,9 @@
     "server": "node server",
     "server:dev": "nodemon server",
     "client": "npm run start --prefix client",
-    "dev": "concurrently \"npm run server:dev\" \"npm run client\""
+    "dev": "concurrently \"npm run server:dev\" \"npm run client\"",
+    "postinstall": "(cd server && npm i); (cd client && npm i)",
+    "install:all": "npm i && postinstall"
   },
   "keywords": [],
   "author": "",
